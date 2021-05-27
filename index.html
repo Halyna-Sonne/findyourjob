@@ -1,46 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FindYourJob-WebSeite ueber Fernarbeit</title>
-  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;0,900;1,400&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <header class="header">
-    <div class="container">
-      <div class="row align-items-center py-3">
-        <div class="col-2">
-          <a href="/" class="logo-link">
-            <img src="img/logo.svg" alt="lögö: find your job">
-          </a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FindYourJob-WebSeite ueber Fernarbeit</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,700;0,900;1,400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header pb-5">
+      <div class="container">
+        <div class="row align-items-center py-3">
+          <div class="col-2">
+            <a href="/" class="logo-link">
+              <img src="img/logo.svg" alt="lögö: find your job" />
+            </a>
+          </div>
+          <!-- /.col -->
+          <div class="col d-flex justify-content-center">
+            <nav class="nav">
+              <ul class="menu d-flex">
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Startseite</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Stellenangebote</a>
+                </li>
+                <li class="menu-item">
+                  <a href="#" class="menu-link">Unternehmen</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <!-- /.col -->
+          <div class="col-3 d-flex align-items-center justify-content-end">
+            <a href="#" class="button button-link">Anmelden</a>
+            <a href="" class="button button-primary">Jetzt registrieren</a>
+          </div>
+          <!-- /.col -->
         </div>
-        <!-- /.col -->
-        <div class="col d-flex justify-content-center">
-          <nav class="nav">
-            <ul class="menu d-flex">
-              <li class="menu-item"><a href="#" class="menu-link">Startseite</a></li>
-              <li class="menu-item"><a href="#" class="menu-link">Stellenangebote</a></li>
-              <li class="menu-item"><a href="#" class="menu-link">Unternehmen</a></li>
-            </ul>
-          </nav>
+        <!-- /.row -->
+        <div class="row pt-5">
+          <div class="col-5">
+            <h1 class="hero-title">
+              Finden Sie den entfernten Job Ihrer Tr&auml;ume
+            </h1>
+            <p class="hero-text">
+              Erstellen Sie einen Lebenslauf oder bewerben Sie sich auf eine
+              Stelle in einem weltbekannten Unternehmen und arbeiten Sie nach
+              einem freien Zeitplan
+            </p>
+            <div class="input-group d-flex">
+              <input
+                type="text"
+                class="input"
+                placeholder="starte Ihre Suche"
+              />
+              <button class="button button-primary">
+                <img
+                  class="button-icon"
+                  src="img/search.svg"
+                  alt="icon: search"
+                />
+                <span class="button-text">Stellen suchen</span>
+              </button>
+            </div>
+            <!-- /.input-group -->
+            <div class="tags-group">
+              <span class="text-label">z.Beispiel:</span>
+              <a href="#" class="tag">Front-end</a>
+              <a href="#" class="tag">Back-end</a>
+              <a href="#" class="tag">Designer</a>
+            </div>
+          </div>
+          <!-- /.col-5 -->
+          <div class="col-6 offset-1">
+            <img
+              src="img/hero-image.svg"
+              alt="image: people with laptops"
+              class="hero-image"
+            />
+          </div>
+          <!-- /.col-6 offset-1 -->
         </div>
-        <!-- /.col -->
-        <div class="col-3 d-flex align-items-center justify-content-end">
-          <a href="#" class="button button-link">Anmelden</a>
-          <a href="" class="button button-primary">Jetzt registrieren</a>
-        </div>
-        <!-- /.col -->
       </div>
-    </div>
-    <!-- /.container -->
-  </header>
-</body>
-
+      <!-- /.container -->
+    </header>
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Kategorien</h2>
+        <div class="row">
+          <div class="col-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+              <svg height="24" class="card-icon">
+               <use href="img/icons.svg#brush"></use>
+              </svg>
+             <span class="card-text">Design</span>
+             <!-- /.card-text --></a>
+            <!-- /.card -->
+          </div>
+          <!-- /.col -->
+           <div class="col-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+             <svg height="24" class="card-icon">
+              <use href="img/icons.svg#browser"></use>
+             </svg>
+             <span class="card-text">Entwicklung</span>
+             <!-- /.card-text --></a> 
+            <!-- /.card -->
+           </div>
+           <!-- /.col -->
+          <div class="col-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+             <svg height="24" class="card-icon">
+              <use href="img/icons.svg#edit"></use>
+             </svg>
+             <span class="card-text">Werbetexten</span> 
+             <!-- /.card-text --></a> 
+            <!-- /.card -->
+           </div>
+           <!-- /.col -->
+          <div class="col-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+             <svg height="24" class="card-icon">
+               <use href="img/icons.svg#fingerprint"></use>
+             </svg>
+             <span class="card-text">Sicherheit</span> 
+             <!-- /.card-text --></a>
+            <!-- /.card -->
+           </div>
+           <!-- /.col -->
+          <div class="col-2"> 
+           <a href="#" class="card d-flex flex-column align-items-center">
+             <svg height="24" class="card-icon">
+              <use href="img/icons.svg#camera"></use>
+             </svg>
+             <span class="card-text">Video</span> 
+            <!-- /.card-text --></a> 
+           <!-- /.card -->
+          </div>
+          <!-- /.col -->
+          <div class="col-2">
+            <a href="#" class="card d-flex flex-column align-items-center">
+             <svg height="24" class="card-icon">
+              <use xlink:href="img/icons.svg#school"></use>
+             </svg>
+             <span class="card-text">Ausbildung</span> 
+             <!-- /.card-text --></a> 
+            <!-- /.card -->
+          </div>
+         <!-- /.col -->
+        </div>
+        <!-- /.row -->
+        </div>
+        
+      </div>
+    </section>
+  </body>
 </html>
